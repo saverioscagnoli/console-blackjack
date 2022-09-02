@@ -1,6 +1,6 @@
 {
   "name": "console-blackjack",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "main": "index.js",
   "type": "module",
@@ -11,7 +11,13 @@
     "type": "git",
     "url": "git+https://github.com/saverioscagnoli/console-blackjack.git"
   },
-  "keywords": [],
+  "keywords": [
+    "console",
+    "cmd",
+    "gambling",
+    "blackjack",
+    "game"
+  ],
   "author": "saverioscagnoli",
   "license": "MIT",
   "bugs": {
