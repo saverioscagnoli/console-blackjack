@@ -29,7 +29,7 @@ async function askName() {
   let nameReq = await inquirer.prompt({
     name: "str",
     type: "input",
-    message: "name",
+    message: "name?",
     default() {
       return "User";
     },
@@ -65,7 +65,7 @@ async function hitOrStand(hand = playerHand) {
     let req = await inquirer.prompt({
       name: "choice",
       type: "list",
-      choices: ["Hit", "Stand", "Double"],
+      choices: ["Hit", "Stand"],
     });
     choice = req.choice;
 
